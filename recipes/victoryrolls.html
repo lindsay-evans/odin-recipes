@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victory Rolls</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="title">Victory Rolls</h1>
+    <a href="~/recipes/index.html"><button>Main Page</button></a>
+    <div class="title"><h1>Victory Rolls</h1></div>
     <!-- I'm struggling to make the relative path work for the image -->
-    <img src="https://imgc.artprintimages.com/img/print/fresh-baked-dinner-rolls_u-l-q1bw5xj0.jpg?artHeight=550&artPerspective=n&artWidth=550&background=fbfbfb" alt="Dinner Rolls">
+    <img src="https://imgc.artprintimages.com/img/print/fresh-baked-dinner-rolls_u-l-q1bw5xj0.jpg?artHeight=550&artPerspective=n&artWidth=550&background=fbfbfb" alt="Dinner Rolls" class="foodimage">
     <!-- Even though this is H2, I would like to make smaller and emphasized -->
-    <h2 class="description">Soft and tender on the inside, crispy on the bottom, these are not your ordinary dinner rolls. We've used a Dutch oven to achieve these decadently buttery, dual-textured buns that are clear winners when it comes to either sopping up leftover juice from an extravagant holiday roast or dipping into a warming bowl of soup.</h2>
+    <div class="description">
+        <h2 class="description">Soft and tender on the inside, crispy on the bottom, these are not your ordinary dinner rolls. We've used a Dutch oven to achieve these decadently buttery, dual-textured buns that are clear winners when it comes to either sopping up leftover juice from an extravagant holiday roast or dipping into a warming bowl of soup.</h2>
+    </div>
     <!-- Want to put more space and info between these elements and make the lists look more "boxy" -->
+    <div class="ingredients">
     <h3 class="ingredients">Ingredients:</h3>
     <p>Dough</p>
     <ul>
@@ -30,6 +35,8 @@
     <ul>
         <li>4 tbsp (57g) unsalted butter, room temperature, divided</li>
     </ul>
+    </div>
+    <div class="steps">
     <h3 class="steps">Steps:</h3>
     <ol>
         <li><strong>To make the dough:</strong> Weight your flours; or measure them by gently spooning into a cup, then sweeping off any excess. Combine all the dough ingredients and mix and knead - by hand, mixer, or bread machine set to the dough cycle - until a soft smooth dough forms.</li>
@@ -45,6 +52,9 @@
         <li>Serve the rolls warm or at room temperature.</li>
         <li>Store the rolls, well wrapped in plastic, for serveral days at room temperature; freeze for longer storage</li>
     </ol>
+    </div>
+    <footer>
     <p>Credit for this recipe goes to <a href="https://www.kingarthurbaking.com/recipes/dutch-oven-dinner-rolls-recipe" target="_blank">King Arthur Baking</a>.</p>
+    </footer>
 </body>
 </html>
